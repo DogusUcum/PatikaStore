@@ -1,13 +1,19 @@
-import {TextInput, View} from 'react-native';
+import {Text, TextInput, View} from 'react-native';
 import React, {useState} from 'react';
-import styles from './SearchInput.style'
+import styles from './SearchInput.style';
 
 const SearchInput = () => {
   const [text, onChaneText] = useState();
 
   return (
     <View>
-      <TextInput style={styles.input} onChangeText={onChaneText} placeholder="Ara..." />
+      <Text style={styles.text}>PATIKASTORE</Text>
+      <TextInput
+        style={styles.input}
+        onChangeText={onChaneText}
+        placeholder="Ara..."
+        value={text}
+      />
     </View>
   );
 };
