@@ -1,4 +1,4 @@
-import {View, FlatList} from 'react-native';
+import {View, FlatList, SafeAreaView} from 'react-native';
 import React from 'react';
 import style from './HomePage.style';
 import patikaObject from '../../patikaObject.json';

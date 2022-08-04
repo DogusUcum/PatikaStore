@@ -1,9 +1,11 @@
 import {Dimensions, StyleSheet} from 'react-native';
 
+const height = Dimensions.get('screen').height / 2;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    height: Dimensions.get('window').height / 1.5,
+    height: height,
     width: Dimensions.get('window').width / 2,
     marginTop: 10,
     marginHorizontal: 10,

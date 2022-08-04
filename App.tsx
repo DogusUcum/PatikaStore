@@ -6,7 +6,7 @@ import HomePage from './src/pages/HomePage';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex:1}}>
       <HomePage />
     </SafeAreaView>
   );
